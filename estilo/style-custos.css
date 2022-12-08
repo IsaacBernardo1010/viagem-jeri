@@ -93,3 +93,7 @@ td.numero {
     text-align: right;
 }
 
+tfoot {
+    text-align: left;
+}
+
