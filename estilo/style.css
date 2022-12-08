@@ -37,16 +37,16 @@ nav {
     background-color: #97dff7;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
+    text-align: left;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.185);
 }
 
 nav > a {
-    color: rgb(9, 11, 133);
+    color: rgb(67, 69, 212);
     text-decoration: none;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 a:hover {    
