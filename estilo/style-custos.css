@@ -75,3 +75,21 @@ a#voltar {
     text-decoration: none;
 }
 
+table {
+    width: 370px;
+}
+
+thead {
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+td.numero {
+    text-align: right;
+}
+
