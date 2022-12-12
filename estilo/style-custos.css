@@ -72,11 +72,22 @@ a#voltar {
 
 table {
     width: 370px;
-    margin: auto;    
+    margin: auto; 
+    position: relative;   
 }
 
 thead {
     text-align: left;
+}
+
+table > thead > tr > th {
+    background-color: rgb(219, 222, 224);
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+
 }
 
 th, td {
