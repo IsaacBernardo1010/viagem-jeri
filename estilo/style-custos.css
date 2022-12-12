@@ -15,11 +15,11 @@ header {
     color: black
 }
 
-div#inicio {
+div.inicio {
     padding-bottom: 0px;    
 }
 
-div#inicio > h2 {
+div.inicio > h2 {
     text-align: center;
     padding-left: 10px;    
 }
@@ -37,20 +37,6 @@ div#fim > h2 {
     font-size: 20px;  
 }
 
-section {
-    display: inline-block;    
-    padding: 0px 5px 10px 10px;    
-}
-
-section > p {
-    text-align: left;
-}
-
-section > h2 {
-    text-align: left;
-    font-size: 20px;
-}
-
 h1 {
     font-weight: normal;
 }
@@ -60,14 +46,23 @@ h2 {
     padding-top: 20px;
 }
 
-a.link {
-    text-decoration: none;
-    color: green;
-    font-weight: bold;
+div > h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
 }
 
-a.link::after {
-    content: '\00A0\1F517';    
+div.legenda {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(to bottom, rgb(103, 230, 103), rgba(0, 128, 0, 0.267));
+    margin-left: 10px;   
+}
+
+div.legenda > p {
+    margin-left: 30px;
 }
 
 a#voltar {  
@@ -92,6 +87,10 @@ th, td {
 
 td.numero {
     text-align: right;
+}
+
+tbody > tr.check {    
+    background-image: linear-gradient(to bottom, rgb(103, 230, 103), rgba(0, 128, 0, 0.267));
 }
 
 tfoot {
