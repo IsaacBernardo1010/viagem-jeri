@@ -112,3 +112,13 @@ tbody > tr.check {
 tfoot {
     text-align: left;
 }
+
+a.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a.link::after {
+    content: '\00A0\1F517';    
+}
