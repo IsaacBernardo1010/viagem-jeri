@@ -80,6 +80,11 @@ thead {
     text-align: left;
 }
 
+table > tbody > tr > th {
+    text-align: left;
+    font-weight: normal;
+}
+
 table > thead > tr > th {
     background-color: rgb(219, 222, 224);
 }
