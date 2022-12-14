@@ -21,7 +21,8 @@ div.inicio {
 
 div.inicio > h2 {
     text-align: center;
-    padding-left: 10px;    
+    padding-left: 10px;  
+    padding-bottom: 5px;  
 }
 
 div#fim {
