@@ -47,7 +47,7 @@ nav {
 nav > a {
     color: rgb(0, 0, 0);    
     font-size: 22px;
-    padding-right: 40px;    
+    padding-right: 20px;    
 }
 
 a:hover {    
