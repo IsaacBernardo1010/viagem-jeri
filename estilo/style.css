@@ -49,18 +49,18 @@ nav > a {
     font-size: 22px;
     padding-right: 20px;   
     text-decoration: underline;
-       
+    
 }
 
 a:hover {    
     background-color: rgba(42, 235, 235, 0.144);
     border-radius: 5px;
-    padding: 3px;
-    box-sizing: border-box;
+    padding: 3px;    
 }
 
 a {
     text-decoration: none;
+    
 }
 
 section {    
