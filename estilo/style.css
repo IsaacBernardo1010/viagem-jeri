@@ -53,6 +53,7 @@ a:hover {
     background-color: rgba(42, 235, 235, 0.144);
     border-radius: 5px;
     padding: 3px;
+    box-sizing: border-box;
 }
 
 a {
@@ -83,9 +84,7 @@ section.img {
     background-size: cover;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
     max-width: 700px;   
-    border-radius: 3px;
-    
-    
+    border-radius: 3px;   
 }
 
 section.img#aviao {
