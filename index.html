@@ -13,7 +13,8 @@
         <h2>Isaac & Iara</h2>
     </header>
     <nav>
-        <a href="custos.html">Custos</a>        
+        <a href="custos.html">Custos</a>
+        <a href="#" onclick="senha(); return false">Comprovantes</a>        
         
     </nav>
     <main>
@@ -66,5 +67,17 @@
         </a>
 
     </main>
+
+    <script>
+        function senha() {
+            let password = "190889"
+            let pass = pronpt("teste")
+            if (pass.toLowerCase() == password){
+                window.location = "comprovantes.html"
+            } else {
+                window.location = "Incorreto"
+            }
+        }
+    </script>
 </body>
 </html>
