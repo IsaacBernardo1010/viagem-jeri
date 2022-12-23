@@ -47,28 +47,25 @@ nav {
 nav > a {
     color: rgb(0, 0, 0);    
     font-size: 22px;
-    padding-right: 20px;   
+    padding: 0px 20px 0px 20px;       
     text-decoration: underline;
     
 }
 
 a:hover {    
     background-color: rgba(42, 235, 235, 0.144);
-    border-radius: 5px;
-    padding: 3px;    
+    border-radius: 5px;       
 }
 
 a {
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 section {    
     height: 100px; 
     width: 90vw;        
     margin: auto;
-    margin-top: 10px;
-       
+    margin-top: 10px;       
 }
 
 section > h1 {

@@ -68,7 +68,8 @@ div.video > iframe {
     left: 1%;
     width: 98%;
     height: 90%;
-    
+    max-width: 800px;
+    max-height: 400px;    
 }
 
 a#voltar {
